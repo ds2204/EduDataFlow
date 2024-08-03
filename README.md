@@ -45,7 +45,7 @@ EduDataFlow is a comprehensive data pipeline project designed to manage, transfo
     ```sh
     pip install dagster dagit dagster-dbt
     ```
-4. **Set up your profiles.yml:**
+4.**Set up your profiles.yml:**
     Create or update your `profiles.yml` file to include your Snowflake credentials. Here is an example configuration:
     ```yaml
     your_project_name:
@@ -61,7 +61,7 @@ EduDataFlow is a comprehensive data pipeline project designed to manage, transfo
           warehouse: your_warehouse
           schema: your_schema
     ```
-5. **Run dbt commands:**
+5.**Run dbt commands:**
 
     - **Parse the project:**
       ```sh
@@ -83,12 +83,13 @@ EduDataFlow is a comprehensive data pipeline project designed to manage, transfo
       dbt test
       ```
 
-6. **Run Dagster:**
+6.**Run Dagster:**
     Start the Dagster UI with:
     ```sh
     dagster dev
     ```
     This will open the Dagster UI where you can manage and monitor your data workflows.
+
 
 
 
