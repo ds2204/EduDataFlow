@@ -31,11 +31,15 @@ EduDataFlow is a comprehensive data pipeline project designed to manage, transfo
 - **students_mart:** Aggregated and analyzed student data for reporting.
 - **enrollments_mart:** Aggregated enrollment data for insights.
 - **courses_mart:** Detailed and summary data on courses for analysis.
+![Screenshot (131)](https://github.com/user-attachments/assets/5d3889fb-4c93-44e5-bab7-2d13f7403513)
+
 
 ## Orchestration with Dagster
 
 - **Dagster Pipelines:** Manage and schedule dbt runs for each stage of the data pipeline.
 - **Monitoring:** Real-time monitoring and alerts for data pipeline status.
+![Screenshot (126)](https://github.com/user-attachments/assets/43bc587f-4159-40f7-ae86-46bc4605033c)
+
 
 ## Usage
 
@@ -111,6 +115,7 @@ EduDataFlow is a comprehensive data pipeline project designed to manage, transfo
     ```sh
     dagster dev
     ```
+    
 
     This will open the Dagster UI where you can manage and monitor your data workflows.
 
