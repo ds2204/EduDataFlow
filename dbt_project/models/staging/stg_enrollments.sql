@@ -1,0 +1,1 @@
+SELECT * FROM {{source("Dp_sources",'enrollments')}}

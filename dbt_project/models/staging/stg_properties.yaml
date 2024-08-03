@@ -1,0 +1,8 @@
+sources:
+  - name: "Dp_sources"
+    database: DBT_CORE
+    schema: DBT_CORE_SCHEMA
+    tables:
+      - name: courses
+      - name: enrollments
+      - name: students
